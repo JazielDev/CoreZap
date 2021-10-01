@@ -1,6 +1,6 @@
 import telebot, requests, re, json
 
-PRIVADO = [1993550658]
+PRIVADO = [1993550658,1195893167]
 #
 #
 GRUPO = []
@@ -41,7 +41,7 @@ def zn(nome):
             else:
                 		bot.reply_to(nome, '''𝘾𝙊𝙈𝙋𝙍𝙀 𝙅𝘼 𝙊 𝙎𝙀𝙐 𝘼𝘾𝙀𝙎𝙎𝙊 𝘼𝙊 𝙉𝙊𝙎𝙎𝙊 𝘽𝙊𝙏
 
-🔍 ⚡️「Kurosaki Robot」⚡️ 🔎
+🔍 ⚡️「Federal Dados」⚡️ 🔎
 ━━━━━━━━━━━━━━━━━
 𝙊 𝘽𝙊𝙏 𝙏𝙀𝙈:
 
@@ -78,7 +78,7 @@ def zn(nome):
 ✅ 𝙇𝙤𝙩𝙚𝙧𝙞𝙘𝙖
 ✅ 𝙏𝙚𝙙
 
-<a href='http://t.me/redfone'>Contratar Planos</a>
+<a href='http://t.me/jhon_shaft'>Contratar Planos</a>
 ━━━━━━━━━━━━━━━━━''', parse_mode='html')
                 		  		
 @bot.message_handler(commands=['menu', 'help', 'start'])
@@ -90,7 +90,7 @@ def bniio(men):
         bot.reply_to(men, '<b>' + '⚠ ERRADO BURRO ⚠' + '</b>')
     else:
         try:
-        	menu = f'olá, <pre>{men.from_user.first_name}</pre>\n<b>VEJA MEUS COMANDOS</b>\n\n<b>🔍MENU DO BOT🔍</b>\n\n<b>[+] TELEFONE</b>: <code>/telefone 19996101067</code>\n<b>[+] NOME:</b>: <code>/nome CARINA ALVES MAIESKY</code>\n<b>[+] CPF</b>: <code>/cpf 34592913892</code>\n<b>[+] CNPJ</b>: <code>/cnpj 27865757000102</code>\n<b>[+] BIN</b>: <code>/bin 545323</code>\n<b>[+] VIZINHOS</b>: <code>/vizinhos 27867260854</code>\n<b>[+] PLACA</b>: <code>/placa ATJ8617</code>\n\n<b>• By</b>: @Kurosaki_robot'
+        	menu = f'Olá, <pre>{men.from_user.first_name}</pre>\n<b>VEJA MEUS COMANDOS</b>\n\n<b>🔍MENU DO BOT🔍</b>\n\n<b>[+] TELEFONE</b>: <code>/telefone 19996101067</code>\n<b>[+] NOME:</b>: <code>/nome CARINA ALVES MAIESKY</code>\n<b>[+] CPF</b>: <code>/cpf 34592913892</code>\n<b>[+] CNPJ</b>: <code>/cnpj 27865757000102</code>\n<b>[+] BIN</b>: <code>/bin 545323</code>\n<b>[+] VIZINHOS</b>: <code>/vizinhos 27867260854</code>\n<b>[+] PLACA</b>: <code>/placa ATJ8617</code>\n\n<b>• By</b>: @Kurosaki_robot'
         	bot.reply_to(men, menu, parse_mode='HTML')
         except:
                     bot.reply_to(men, 'ERRADO BURRO',)
@@ -147,7 +147,7 @@ def byti(men):
             else:
                 bot.reply_to(men, '''𝘾𝙊𝙈𝙋𝙍𝙀 𝙅𝘼 𝙊 𝙎𝙀𝙐 𝘼𝘾𝙀𝙎𝙎𝙊 𝘼𝙊 𝙉𝙊𝙎𝙎𝙊 𝘽𝙊𝙏
 
-🔍 ⚡️「Kurosaki Robot」⚡️ 🔎
+🔍 ⚡️「Federal Dados」⚡️ 🔎
 ━━━━━━━━━━━━━━━━━
 𝙊 𝘽𝙊𝙏 𝙏𝙀𝙈:
 
@@ -184,7 +184,7 @@ def byti(men):
 ✅ 𝙇𝙤𝙩𝙚𝙧𝙞𝙘𝙖
 ✅ 𝙏𝙚𝙙
 
-<a href='http://t.me/redfone'>Contratar Planos</a>
+<a href='http://t.me/jhon_shaft'>Contratar Planos</a>
 ━━━━━━━━━━━━━━━━━''', parse_mode='html')
 
 
@@ -309,7 +309,7 @@ def zbsn(nome):
             else:
                 		bot.reply_to(nome, '''𝘾𝙊𝙈𝙋𝙍𝙀 𝙅𝘼 𝙊 𝙎𝙀𝙐 𝘼𝘾𝙀𝙎𝙎𝙊 𝘼𝙊 𝙉𝙊𝙎𝙎𝙊 𝘽𝙊𝙏
 
-🔍 ⚡️「Kurosaki Robot」⚡️ 🔎
+🔍 ⚡️「Federal Dados」⚡️ 🔎
 ━━━━━━━━━━━━━━━━━
 𝙊 𝘽𝙊𝙏 𝙏𝙀𝙈:
 
@@ -346,6 +346,6 @@ def zbsn(nome):
 ✅ 𝙇𝙤𝙩𝙚𝙧𝙞𝙘𝙖
 ✅ 𝙏𝙚𝙙
 
-<a href='http://t.me/redfone'>Contratar Planos</a>
+<a href='http://t.me/jhon_shaft'>Contratar Planos</a>
 ━━━━━━━━━━━━━━━━━''', parse_mode='html')   		
 bot.polling()
